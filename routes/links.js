@@ -54,7 +54,7 @@ router.delete('/',auth, async function (req, res, next) {
     id: req.body.id,
     user_id : req.user.id
   }
-
+  
   const sql = 'DELETE FROM links WHERE  id=? and user_id =?'
   const params = [data.id, data.user_id]
   await db.run(sql, params, function (err) {
