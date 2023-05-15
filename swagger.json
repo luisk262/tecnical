@@ -5,14 +5,16 @@
         "version": "1.0.6",
         "title": "Swagger Links",
         "contact": {
-            "email": "luis.alvarez@bewe.io"
+            "email": "luis.alvarez@bewe.io",
+            "email2": "jhoan.patino@bewe.io"
         }
         
     },
-    "host": "http://ec2-34-224-5-243.compute-1.amazonaws.com:3000",
+    "host": "https://tecnical.bewe.co/",
     "basePath": "/",
     "schemes": [
-        "http"
+        "http",
+        "https"
     ],
     "paths": {
         "/links/add": {
