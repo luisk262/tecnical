@@ -10,7 +10,7 @@
         }
         
     },
-    "host": "https://tecnical.bewe.co/",
+    "host": "tecnical.bewe.co",
     "basePath": "/",
     "schemes": [
         "http",
